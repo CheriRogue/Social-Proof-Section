@@ -131,12 +131,12 @@ table {
 /* Stylesheet start */
 
 :root {
-  --color-primary-dark-magenta: hsl(300, 43%, 22%);
-  --color-primary-soft-pink: hsl(333, 80%, 67%);
+  --primary-dark-magenta: hsl(300, 43%, 22%);
+  --primary-soft-pink: hsl(333, 80%, 67%);
 
-  --color-neutral-dark-grayish-magenta: hsl(303, 10%, 53%);
-  --color-neutral-light-grayish-magenta: hsl(300, 24%, 96%);
-  --color-neutral-white: hsl(0, 0%, 100%);
+  --neutral-dark-grayish-magenta: hsl(303, 10%, 53%);
+  --neutral-light-grayish-magenta: hsl(300, 24%, 96%);
+  --neutral-white: hsl(0, 0%, 100%);
 }
 
 * {
@@ -148,13 +148,60 @@ body {
     url(images/bg-pattern-bottom-mobile.svg);
   background-repeat: no-repeat;
   background-position: left top, right bottom;
-  color: var(--color-primary-dark-magenta);
+  color: var(--primary-dark-magenta);
   text-align: center;
   font-family: "Spartan", sans-serif;
+  padding: 80px 0 100px;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+  width: 90%;
 }
 
 h1 {
+  color: var(--primary-dark-magenta);
   font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+.top p {
+  color: var(--neutral-dark-grayish-magenta);
+  font-weight: 500;
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+
+.ratings {
+  font-size: 13px;
+  font-weight: 700;
+  padding: 5px 8px;
+  margin: 5px 20px;
+  background-color: var(--neutral-light-grayish-magenta);
+}
+
+img {
+  border-radius: 100px;
+}
+
+h2 {
+  color: var(--neutral-white);
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.buyer-type {
+  color: var(--primary-soft-pink);
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.quote {
+  color: var(--neutral-white);
+  font-size: 13px;
+  font-weight: 400;
 }
 
 .attribution {
