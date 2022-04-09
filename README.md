@@ -12,7 +12,6 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -20,11 +19,11 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 
 Users should be able to:
 
-- View the optimal layout for the section depending on their device's screen size
+- View the optimal layout for the section depending on their device's screen size (mobile or desktop)
 
 ### Screenshot
 
-![](./Screenshot 2022-04-08 at 13-41-10 Frontend Mentor Social proof section.png)
+![](./Screenshot.png)
 
 ### Built with
 
