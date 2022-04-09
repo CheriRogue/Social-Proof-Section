@@ -141,6 +141,7 @@ table {
 
 * {
   box-sizing: border-box;
+  min-height: 100%;
 }
 
 body {
@@ -148,10 +149,12 @@ body {
     url(images/bg-pattern-bottom-mobile.svg);
   background-repeat: no-repeat;
   background-position: left top, right bottom;
+  background-size: 50%, 100%;
   color: var(--primary-dark-magenta);
   text-align: center;
   font-family: "Spartan", sans-serif;
   padding: 80px 0 100px;
+  min-height: 100%;
 }
 
 .container {
@@ -251,17 +254,62 @@ h2 {
     width: 85%;
   }
 
+  body {
+    text-align: left;
+    background-image: url(images/bg-pattern-top-desktop.svg),
+      url(images/bg-pattern-bottom-desktop.svg);
+    background-size: 45%, 75%;
+    padding: 127px 0;
+  }
+
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .top {
+    width: 50%;
+  }
+
+  .top p {
+    margin: 0;
+  }
+
+  .ratings li {
+    display: flex;
+    align-items: center;
+  }
+
+  .ratings li:nth-child(2) {
+    transform: translateX(-48px);
+  }
+
+  .ratings li:nth-child(1) {
+    transform: translateX(-96px);
+  }
+
+  .ratings span {
+    margin: 0 0 0 28px;
+  }
+
   .testimonials {
     display: flex;
     margin-top: 0;
     gap: 25px;
   }
+
+  .testimonials li:nth-child(1) {
+    transform: translateY(-16px);
+  }
+
+  .testimonials li:nth-child(3) {
+    transform: translateY(16px);
+  }
 }
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
+@media (min-width: 1000px) {
+  h1 {
+    font-size: 48px;
+  }
 }
