@@ -11,6 +11,7 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
+  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
@@ -34,4 +35,11 @@ Users should be able to:
 
 ### What I learned
 
-I learned how to improve my front-end coding skills by building projects in a real-life workflow based on a Figma design.
+- Improved front-end coding skills by building projects in a real-life workflow based on a Figma design.
+
+- Also fixed error where stylesheet would result in 404 error after deployment. After trial and error, I fixed bug by removing `/` from href in html.
+
+### Useful resources
+
+- Colt Steele's Udemy Web Developer course
+- Youtube tutorials and Stack Overflow
