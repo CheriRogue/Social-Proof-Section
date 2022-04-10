@@ -299,12 +299,12 @@ h2 {
     gap: 25px;
   }
 
-  .testimonials li:nth-child(1) {
-    transform: translateY(-16px);
-  }
-
   .testimonials li:nth-child(3) {
     transform: translateY(16px);
+  }
+
+  .testimonials li:nth-child(1) {
+    transform: translateY(-16px);
   }
 }
 
